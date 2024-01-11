@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:themesandtext/home_page.dart';
+import 'package:themesandtext/Pages/home_page.dart';
 
 void main() {
   runApp(const MyApp()); //runApp euta method ho
