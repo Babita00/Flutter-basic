@@ -4,12 +4,10 @@ class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(
+      BuildContext context) //here widget in first line gives widget retrun
+  {
     int days = 30;
-    // double pi = 3.14;//for float
-    // bool isFemale=true;
-    String fname = "Babita";
-    String lname = "Awasthi";
     return Scaffold(
       appBar: AppBar(
         title: const Text("My first app"),
@@ -17,9 +15,7 @@ class HomePage extends StatelessWidget {
 
       body: //body
           Center(
-        child: Container(
-          child: Text("Welcome to $days days of flutter with $fname $lname"),
-        ),
+        child: Text("Welcome to $days days of flutter"),
       ),
       drawer: const Drawer(), //like foot
     );
